@@ -1,0 +1,195 @@
+html {
+    color: #000;
+    background: #FFF;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img {
+    border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+ol, ul {
+    list-style: none;
+}
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+}
+
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    /*字体*/
+}
+
+li {
+    list-style: none;
+}
+
+input, img {
+    border: none;
+}
+
+
+.body {
+
+
+}
+
+.header {
+    width: 100%;
+    height: 132px;
+    background: #f2f2f2;
+
+}
+
+.container {
+    width: 1220px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+.wap {
+    width: 100%;
+    height:fit-content;
+    min-height: 600px;
+    margin: 0 auto;
+    background: #f2f2f2;
+
+}
+.childDiv{
+    float:left;
+    width: 50%;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 2%;
+}
+
+
+
+
+.logo-box {
+    width: 250px;
+    height: 132px;
+    background: url("/static/img/logo_03.png") no-repeat;
+    float: left;
+    margin-top: 32px
+}
+
+.duiqi {
+    margin: 0 auto;
+    width: 1220px;
+    height: 100%;
+}
+
+ul.nav {
+    float: left;
+    margin-left: -280px;
+}
+
+li {
+    float: left;
+    margin-top: 0px;
+    margin-right: 35px;
+    line-height: 45px;
+    margin-left: 35px;
+    box-sizing: border-box;
+
+}
+
+a.caidan {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+li.active {
+
+
+}
+
+.auth-box {
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+    line-height: 64px;
+    height: 123px;
+
+}
+
+.iconfont {
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+
+.caidantiao {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #005bac;
+
+}
+
+.myinfo {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+     background: url("/static/img/bg_02.png") no-repeat;
+}
+.auth-img {
+ width: 108px;
+    height: 200px;
+    margin: 0 ;
+    float: left;
+
+}
+.auth-info {
+    width: 50%;
+    height: 200px;
+    margin: 0 ;
+    float: left;
+}
+h{
+    font-size:18px;
+
+}
+.line{
+    height: 3px;
+    width: 1220px;
+    background-color: #59b2ff;
+
+}
+.fence{
+
+
+}
